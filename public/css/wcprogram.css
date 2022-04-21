@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+   .logo .boxlogo{
+    margin-left: -68px;
+  }
+
+  .logo.sNAme{
+    margin-left: -68px;
+  }
+
+  .imgLogo{
+    border-radius: 100px;
+     height: 100%;
+  width: 100%;
+  object-fit: cover;
+  }
+  
+  .block {
+    position: relative;
+    position: relative;
+    margin: 33px auto;
+    width: 1358px;
+    /* height: 686px; */
+    height: auto;
+
+    background: linear-gradient(0deg, #000, #272727);
+    border-radius: 30px;
+  }
+  .HEADER h1{
+    color: aqua;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .block h3{
+    color: rgb(0, 255, 255);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .welcome h1{
+    color: aqua;
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .typewrite{
+    color: #ff0707;
+    text-decoration: none
+  }
+  .footer{
+    justify-content: left;
+    margin: 60px auto 0;
+  }
+  bannerSlide{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #000;
+  }
+  .footer h2{
+    color: aqua;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .footer h3{
+    color: aqua;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .marquee{
+    font-size: 30px;
+    font-weight: 800;
+    color: #22c2ca;;
+    font-family: sans-serif;
+    }
+  
+  .block:before, .block:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+      #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+  }
+  
+  @keyframes steam {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .block:after {
+    filter: blur(50px);
+  }
